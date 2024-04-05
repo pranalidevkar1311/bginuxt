@@ -8,7 +8,7 @@
      >
        <a href="/" class="flex items-center">
          <img
-           src="/Buying-Guides-With-Tagline.png"
+           src="/Buying-Guides-Without-Tagline.png"
            class="mr-3"
            width="200"
            alt="Partner Explorer"
@@ -65,12 +65,13 @@
            </li>
            <li>
              <a
-               href="/"
+               href="/aboutus"
                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 lg:border-0 lg:hover:text-accent lg:p-0 antialiased"
                >About Us</a
              >
            </li>
            <li>
+            
              <a
                href="/login"
                class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 lg:border-0 lg:hover:text-accent lg:p-0 antialiased"

@@ -15,10 +15,10 @@ module.exports = {
   },
   theme: {
     colors: {
-      primary: "#07D5A7",
-      "primary-2": "#8ddaaf",
+      primary: "#F0476E",
+      "primary-2": "#0F8AB4",
       "primary-3": "#fac600",
-      accent: "#18788e",
+      accent: "#F0476E",
       "accent-2": "#ff595f",
       grey: "#f3f3f3",
       white: "#ffffff",
@@ -32,7 +32,7 @@ module.exports = {
       "dark-yellow": "#D49902",
       "grey-900": "#111928",
       "dark-blue": "#2443aa",
-      'primary-900': '#07D5A7',
+      'primary-900': '#F0476E',
     },
     backgroundImage: {
       "my-gradient":

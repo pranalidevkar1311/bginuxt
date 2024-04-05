@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-white">
-    <footer class="max-w-screen-xl mx-auto px-4 py-10 sm:px-6 lg:px-8 footer">
+  <div class="bg-black">
+    <footer class="max-w-screen-xl mx-auto px-4 py-10 sm:px-6 lg:px-8 footer text-white">
     <!-- Grid -->
     <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-6 mb-10">
       <div>
-        <a href="/"><img width="65%" src="/Buying-Guides-With-Tagline.png" height="auto" alt="Machintel"></a>
-        <p class="mt-3 text-xs sm:text-sm text-black">© 2023 Machintel.</p>
+        <a href="/"><img width="65%" src="/bgi-footer.png" height="auto" alt="Machintel"></a>
+        <p class="mt-3 text-xs sm:text-sm text-white">© 2023 Machintel.</p>
       </div>
       <!-- End Col -->
   
@@ -35,7 +35,7 @@
       <!-- End Col -->
   
       <div>
-         <h4 class="uppercase text-base font-normal">AMERICAS</h4>
+         <h4 class="uppercase text-base font-normal text-white">AMERICAS</h4>
           <div class="mt-0 text-sm">
             <p class="mt-0">+1.619.900.9595<br>
               +1.844.900.9595 Toll Free</p>
@@ -59,13 +59,13 @@
           
   
           <div class="space-x-4 text-sm ml-4">
-            <a class="inline-flex gap-x-2 text-black hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+            <a class="inline-flex gap-x-2 text-white hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
               href="https://machintel.com/privacy-policy/">Privacy Policy</a>
-            <a class="inline-flex gap-x-2 text-black hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+            <a class="inline-flex gap-x-2 text-white hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
               href="https://machintel.com/cookies-policy/">Cookie Policy</a>
-            <a class="inline-flex gap-x-2 text-black hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+            <a class="inline-flex gap-x-2 text-white hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
               href="https://machintel.com/terms-of-use/">Terms of Use</a>
-            <a class="inline-flex gap-x-2 text-black hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
+            <a class="inline-flex gap-x-2 text-white hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-200"
               href="https://machintel.com/do-not-sell-my-information/">Do not sell my personal information</a>
           </div>
         </div>
