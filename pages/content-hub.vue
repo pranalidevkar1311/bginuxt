@@ -13,7 +13,11 @@
     </div>
     <div class="lg:grid lg:grid-cols-8">
       <div class="col-span-2">
-        <input type="text" v-model="searchQuery" placeholder="Search..." />
+        <input
+          type="text"
+          v-model="searchQuery"
+          placeholder="Search posts..."
+        />
       </div>
       <div class="pt-5 ml-auto mr-3 pb-5 lg:pb-0 lg:pt-2">
         <span class="font-bold mb-3 text-font">Filter By Type</span>
@@ -73,14 +77,8 @@
       </a>
     </div>
     <div class="flex gap-2 justify-end" v-if="showPagination">
-      <button
-        class="p-2 bg-white rounded-lg border border-gray-200 shadow-md"
-        @click="backPage"
-      >
-        prev
-      </button>
-      <button
-        class="p-2 rounded-lg border border-gray-200 shadow-md"
+      <button class="p-2 bg-white rounded-lg border border-gray-200 shadow-md" @click="backPage">prev</button>
+      <button class="p-2 rounded-lg border border-gray-200 shadow-md"
         :class="{ 'bg-blue-500': selectedId === item }"
         v-for="item in Math.ceil(this.totalLength / perPage)"
         :key="item"
@@ -89,12 +87,7 @@
       >
         {{ item }}
       </button>
-      <button
-        class="p-2 bg-white rounded-lg border border-gray-200 shadow-md"
-        @click="nextPage"
-      >
-        next
-      </button>
+      <button class="p-2 bg-white rounded-lg border border-gray-200 shadow-md" @click="nextPage">next</button>
     </div>
   </div>
 </template>
@@ -117,23 +110,24 @@ export default {
 
   async asyncData({ params }) {
     const projectId = process.env.PROJECT_ID;
-    const previewApiKey = process.env.PREVIEW_ID;
+		const previewApiKey = process.env.PREVIEW_ID;
 
-    const config = {
-      projectId: projectId,
-    };
-    if (previewApiKey) {
-      config.previewApiKey = previewApiKey;
-      config.defaultQueryConfig = { usePreviewMode: true };
-    }
+		const config = {
+			projectId: projectId,
+		};
+		if (previewApiKey) {
+			config.previewApiKey = previewApiKey;
+			config.defaultQueryConfig = { usePreviewMode: true };
+		}
 
-    const deliveryClient = new DeliveryClient(config);
+
+		const deliveryClient = new DeliveryClient(config);
 
     try {
       const response = await deliveryClient
         .items() // Replace with your actual Kontent item codename
         .type(["blog_post", "resource_item"])
-        .collection("default")
+        .collection("bgi")
         .orderParameter("elements.date[desc]")
         .toPromise();
 
@@ -185,11 +179,8 @@ export default {
         );
       }
       this.totalLength = result.length;
-      this.showPagination = this.totalLength / this.perPage >= 1;
-      result = result.slice(
-        (this.pageRef - 1) * this.perPage,
-        this.pageRef * this.perPage
-      );
+      this.showPagination = (this.totalLength / this.perPage) >= 1;
+      result = result.slice((this.pageRef - 1) * this.perPage, this.pageRef * this.perPage)
       return result;
     },
   },
