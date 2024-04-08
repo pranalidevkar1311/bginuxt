@@ -9,6 +9,7 @@
             class="tracking-tight text-[#323232] font-serif text-5xl leading-[60px] font-semibold hero-title hero-line-height"
             v-html="data.title.value"
           />
+           
           <h1
             v-if="
               data &&

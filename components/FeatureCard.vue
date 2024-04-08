@@ -82,7 +82,7 @@
         {{ data.description.value }}
       </p>
       <div
-        class="mb-4 text-gray-500 description-point"
+        class="mb-4 description-pricing text-left whitespace-pre-line ml-10"
         v-if="
           data &&
           data.description_point &&
@@ -95,7 +95,7 @@
           'text-white font-bold'
         "
       />
-
+      
       <div
         v-if="data.button_cta.linkedItems.length"
         class="inline-flex items-center mt-5"
@@ -229,7 +229,7 @@
           {{ data.description.value }}
         </p>
         <div
-          class="mb-4 text-gray-500 description-point"
+          class="mb-4 description-pricing text-left whitespace-pre-line ml-10"
           v-if="
             data &&
             data.description_point &&
