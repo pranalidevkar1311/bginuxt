@@ -14,7 +14,7 @@
         class="w-full grid grid-col-1 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-x-8 gap-y-20"
       >
         <div
-          class="rounded shadow overflow-hidden"
+          class="bg-grey-100 shadow hover:shadow-2xl overflow-hidden"
           :class="[
             data?.card_color?.value?.[0]?.codename === 'green'
               ? 'bg-green'

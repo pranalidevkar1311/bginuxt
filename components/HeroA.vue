@@ -25,7 +25,7 @@
           >
             {{ data.heading__heading_text.value }}
           </component>
-          <p class="mt-3 lg:text-xl text-normalfont-semibold text-primary">
+          <p class="mt-3 lg:text-xl text-normalfont-semibold text-primary-1">
             {{ data.description.value }}
           </p>
           <div

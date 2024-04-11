@@ -8,7 +8,7 @@
         <div class="py-8 lg:pe-4 lg:pe-8">
           <div class="space-y-5 lg:space-y-8">
             <h1
-              class="text-3xl font-normal lg:text-5xl font-serif text-primary-1 blog-title"
+              class="text-3xl font-normal lg:text-5xl font-serif text-primary blog-title"
             >
               {{ pageData.post_title.value }}
             </h1>
@@ -93,7 +93,7 @@
       <!-- Sidebar -->
       <div class="lg:col-span-1 lg:w-full lg:h-full">
         <div class="sticky top-20 start-14 py-8 lg:ps-4 lg:ps-8">
-          <h6 class="text-xl text-accent-2 font-medium mb-5">Recent Posts</h6>
+          <h6 class="text-xl text-primary font-medium mb-5">Recent Posts</h6>
 
           <div class="space-y-6">
             <!-- Media -->
@@ -111,7 +111,7 @@
                 />
               </div>
               <div>
-                <span class="text-sm font-medium py-5 text-lg">
+                <span class="text-sm font-medium py-5 text-lg ">
                   {{ item.elements.post_title.value }}
                 </span>
               </div>
@@ -269,7 +269,8 @@ export default {
     @apply text-sm text-primary mb-3;
   }
   a {
-    @apply text-accent;
+  
+    color:black
   }
   ul {
     list-style-type: disc;

@@ -168,7 +168,8 @@
     left: -20px;
     width: 18px;
     height: 18px;
-    background-image: url("../../static/images/Gray Check.svg");
+    //-image: url("../../static/images/Gray Check.svg");
+    background-image:url("../../static/images/Caribbean Green.svg");
   }
   .description-pricing > ul > li {
     padding: 6px 8px;
