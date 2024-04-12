@@ -82,7 +82,7 @@
            <li>
              <a
                href="/contact-us/"
-               class="btn-primary-900 text-sm font-medium rounded-full px-4 block py-2 pr-4 pl-3 antialiased"
+               class="text-center inline-flex items-center btn-blue text-white text-sm font-bold border-0 btn-accent-2 shadow-md px-6 py-3"
                >Contact Us</a
              >
            </li>

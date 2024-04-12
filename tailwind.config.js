@@ -15,24 +15,16 @@ module.exports = {
   },
   theme: {
     colors: {
-      primary: "#F0476E",
+      primary: "#02314e",
       "primary-2": "#0F8AB4",
       "primary-3": "#fac600",
-      accent: "#F0476E",
-      "accent-2": "#ff595f",
+      accent: "#18788e",
+      "accent-2": "#F0476E",
       grey: "#f3f3f3",
       white: "#ffffff",
       font: "#777777",
       "grey-100": "#F1F1F1",
       "sky-blue": "#ABDAF7",
-      cyan: "#31A4E5",
-      "light-green": "#E8F1F2",
-      brown: "#7E7277",
-      orange: "#FA9449",
-      "dark-yellow": "#D49902",
-      "grey-900": "#111928",
-      "dark-blue": "#2443aa",
-      'primary-900': '#F0476E',
     },
     backgroundImage: {
       "my-gradient":

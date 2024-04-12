@@ -36,7 +36,7 @@
       </svg>
     </a>
     <a v-if="data.color.value[0].codename == 'bg_pink'"
-      class="text-center inline-flex items-center btn-blue text-white text-sm font-bold border-0 btn-accent-2 shadow-md bg-primary px-6 py-3"
+      class="text-center inline-flex items-center btn-blue text-white text-sm font-bold border-0 btn-accent-2 shadow-md px-6 py-3"
       :href="data.button_link.value">{{ data.button_text.value }}
       <svg class="ml-2 w-5 h-5 mt-[2px]" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
         <path
