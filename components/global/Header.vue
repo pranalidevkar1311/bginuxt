@@ -11,7 +11,7 @@
            src="/Buying-Guides-Without-Tagline.png"
            class="mr-3"
            width="200"
-           alt="Partner Explorer"
+           alt="BGI"
          />
        </a>
        <div class="flex items-center">
