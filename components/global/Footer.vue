@@ -192,13 +192,24 @@ PARTNER NETWORK
         </div>
   
         <div class="flex justify-between items-center">
-  
+         
           <!-- Social Brands -->
           <div class="space-x-4">
-            <a href="https://www.facebook.com/machintel" target="_blank"><font-awesome-icon :icon="['fab', 'square-facebook']"/></a>
-            <a href="https://twitter.com/MachintelInc" target="_blank"><font-awesome-icon :icon="['fab', 'x-twitter']"/></a>
-            <a href="http://www.linkedin.com/companies/machintel-corporation" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']"/></a>
+            <a href="https://www.facebook.com/buyingguidesinc" target="_blank"><font-awesome-icon :icon="['fab', 'square-facebook']"/></a>
+            <a href="https://twitter.com/buyingguidesinc" target="_blank"><font-awesome-icon :icon="['fab', 'x-twitter']"/></a>
+            <a href="https://www.linkedin.com/company/buyingguidesinc" target="_blank"><font-awesome-icon :icon="['fab', 'linkedin']"/></a>
+            <a href="https://twitter.com/buyingguidesinc" target="_blank"><svg class="svg-inline--fa fa-youtube fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="youtube" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+<path fill="currentColor" d="M549.655 127.201c-6.281-23.69-24.563-42.535-48.199-48.815C458.732 64 288 64 288 64S117.268 64 74.544 78.386c-23.636 6.28-41.918 25.125-48.199 48.815-14.094 52.956-14.094 174.518-14.094 174.518s0 121.562 14.094 174.518c6.281 23.69 24.563 42.535 48.199 48.814C117.268 448 288 448 288 448s170.732 0 213.456-14.386c23.636-6.28 41.918-25.124 48.199-48.814 14.094-52.956 14.094-174.518 14.094-174.518s0-121.562-14.094-174.518zM236.923 352.923V160.077l149.055 96.423-149.055 96.423z"></path>
+</svg></a>
+            <a href=" https://www.instagram.com/buyingguidesinc" target="_blank"><svg class="svg-inline--fa fa-instagram fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+<path fill="currentColor" d="M224 141c-63.6 0-114.9 51.3-114.9 114.9S160.4 370.8 224 370.8 338.9 319.5 338.9 255 287.6 141 224 141zm0 184.6c-42.4 0-76.7-34.4-76.7-76.7s34.4-76.7 76.7-76.7 76.7 34.4 76.7 76.7-34.3 76.7-76.7 76.7zm108.5-196.1c0 19.5-15.8 35.3-35.3 35.3s-35.3-15.8-35.3-35.3c0-19.5 15.8-35.3 35.3-35.3s35.3 15.8 35.3 35.3zM402.8 64H45.2C20.2 64 0 84.2 0 109.2v293.6c0 25 20.2 45.2 45.2 45.2h357.6c25 0 45.2-20.2 45.2-45.2V109.2c0-25-20.2-45.2-45.2-45.2zM403.5 403.5c0 12.5-10.2 22.7-22.7 22.7H67.2c-12.5 0-22.7-10.2-22.7-22.7V140.5h67.3c-5.7 13.7-8.9 28.4-8.9 43.8 0 80.4 65.3 145.7 145.7 145.7s145.7-65.3 145.7-145.7c0-15.4-3.1-30.1-8.9-43.8h67.3v263zm-67.3-301.7H112.3V91.1h224z"></path>
+</svg>
+</a>
+           
+
           </div>
+         
+
           <!-- End Social Brands -->
         </div>
         <!-- End Col -->

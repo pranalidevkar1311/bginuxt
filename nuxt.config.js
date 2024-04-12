@@ -66,6 +66,8 @@ export default {
         "faTwitter",
         "faTwitterSquare",
         "faXTwitter",
+        "faInstagram", // Add Instagram icon
+        "faYoutube"    // Add YouTube icon
       ],
     },
   },

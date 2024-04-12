@@ -52,7 +52,7 @@
             <!-- End Checkbox -->
     
             <div class="mt-6 grid">
-              <button type="submit" class="btn rounded-md btn-primary-900">Submit</button>
+              <button type="submit" class="btn rounded-md btn-accent-2">Submit</button>
             </div>
           </form>
                 <!-- End Form -->
@@ -69,17 +69,22 @@ import { defineComponent } from 'vue';
 
 export default defineComponent({
 methods: {
-    signInWithGoogle() {
-     // Perform Google Sign-In
-     const auth2 = gapi.auth2.getAuthInstance();
-     auth2.signIn().then(googleUser => {
-        const idToken = googleUser.getAuthResponse().id_token;
-        // Send the idToken to your backend for authentication
-        console.log('Google Sign-In successful. ID token:', idToken);
-     }).catch(error => {
-        console.error('Google Sign-In failed:', error);
-     });
-    },
+  signInWithGoogle() {
+  const auth2 = window.gapi.auth2.getAuthInstance();
+  auth2.signIn().then(googleUser => {
+    const idToken = googleUser.getAuthResponse().id_token;
+    // Send the idToken to your backend for authentication
+    console.log('Google Sign-In successful. ID token:', idToken);
+  }).catch(error => {
+    if (error.error === 'popup_closed_by_user') {
+      console.log('User closed the sign-in popup');
+      // Display a message to the user indicating that the sign-in was canceled
+    } else {
+      console.error('Google Sign-In failed:', error);
+      // Handle other sign-in errors
+    }
+  });
+},
     initGoogleSignIn() {
      // Initialize Google Sign-In with your client ID
      gapi.load('auth2', () => {

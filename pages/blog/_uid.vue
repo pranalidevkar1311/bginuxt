@@ -53,6 +53,9 @@
                     :icon="['fab', 'linkedin']"
                   />
                 </ShareNetwork>
+           
+               
+
               </p>
             </div>
             <div v-if="containsObjectTag">
